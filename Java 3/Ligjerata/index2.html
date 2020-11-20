@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Index 2</title>
+
+    <link rel="stylesheet" href="Style.css" type="text/css"/>
+    <style>
+        .box p{
+            font-family: 'Broadway';
+            font-size: 30pt;
+        }
+
+        ul, ol{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 20pt;
+            padding-left: 20px;
+        }
+
+        ul>li li{
+            border-bottom: solid 2px violet;
+            background-color: turquoise;
+        }
+        /* ose */
+        /* ol>li{
+            border-bottom: solid 2px violet;
+            background-color: turquoise;
+        } */
+        ul>li li:first-child{
+            background-color: tomato;
+        }
+    </style>
+</head>
+<body>
+    <div id="d01">
+        <div class="box">
+            <p>Selektori pasardhes</p>
+        </div>
+        <p>Do te vrehet se ky paragraf nuk do te pesoj formatim</p>
+        <br><br>
+        <div id="d02">
+            <ul>
+                <li>Llaptopa</li>
+                <li>Tel Mobile
+                    <ol>
+                        <li>iPhone 12</li>
+                        <li>Samsung s20</li>
+                    </ol>
+                </li>
+                <li>PC</li>
+            </ul>
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,19 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+/* div {
+    width: 700px;
+    height: 500px;
+    background-color: bisque;
+    margin: 0 auto;
+} */
+
+#d01 {
+    width: 700px;
+    height: 500px;
+    background-color: bisque;
+    margin: 0 auto;
+    padding: 10px;
+}
